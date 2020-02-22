@@ -10,6 +10,8 @@ Source: %{name}-%{version}.tar.gz
 BuildRequires: cmake
 BuildRequires: gtest-devel
 BuildRequires: libgmock-devel
+%description
+properties-cpp
 
 %prep
 %setup -q -n %{name}-%{version}
